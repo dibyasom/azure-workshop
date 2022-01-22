@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ReSkill Mini</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- File uploader -->
+    <script src="assets/script/upload.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><strong>ReSkill</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-grow-1 justify-content-end" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-nowrap text-center flex-row flex-grow-1"><a class="nav-link" href="<%= navLink %>">
+                            <div style="padding: 5px;"><small style="color: rgb(179,204,230);font-size: 16px;margin: 8px;"> <%= navLinkTitle %> </small><i class="fa fa-<%= navLinkIcon %>" style="color: rgb(173,196,220);font-size: 20px;"></i></div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- User Cards -->
+    <section id="exploreUsers" style="margin-top: 80px;">
+            <div class="card" style="padding: 20px;margin: 10px;background: rgb(0,0,0);">
+                <div class="card-body">
+                    <div class="row d-md-flex align-items-md-center">
+                        <div class="col">
+                            <h4 class="font-monospace" style="text-align: center;color: rgb(255,255,255);font-weight: bold;"> User registration <%= status %> </h4>
+                            <p style="text-align: center;color: rgb(116,116,116);"><%= msg %></p>
+                        </div>
+                        <div class="col">
+                            <div class="text-center d-flex justify-content-md-center" style="padding: 10px;"><i class="fa fa-<%= icon %>" style="color: rgb(173,196,220);font-size: 50px;"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="footer-basic">
+        <div class="social"><a href="https://www.instagram.com/dibyasom/?hl=bg"><i class="icon ion-social-instagram"></i></a><a href="https://github.com/vhaegar1526"><i class="icon ion-social-github"></i></a><a href="https://twitter.com/flavoureddd"><i class="icon ion-social-twitter"></i></a><a href="https://www.linkedin.com/in/dibyasom-puhan-433852190/"><i class="icon ion-social-linkedin"></i></a></div>
+        <p class="copyright">Dibyasom Puhan &lt;dibya.secret@gmail.com&gt;</p>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
