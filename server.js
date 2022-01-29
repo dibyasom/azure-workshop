@@ -31,11 +31,11 @@ const __dirname = path.resolve();
 
 // ---------------------------------------------------------------------
 // RateLimit - Prevent DoS attack - 15Minutes, 100Req(s) per IP.
-import rateLimit from "express-rate-limit";
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 100,
-});
+// import rateLimit from "express-rate-limit";
+// const limiter = rateLimit({
+//   windowMs: 15 * 60 * 1000,
+//   max: 100,
+// });
 
 // ---------------------------------------------------------------------
 // Express config.
